@@ -1,0 +1,29 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmatwiejczyk/counter.git"
+  },
+  "author": "Hubert Matwiejczyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmatwiejczyk/counter/issues"
+  },
+  "homepage": "https://github.com/hmatwiejczyk/counter#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "hyperscript": "^2.0.2",
+    "hyperscript-helpers": "^3.0.3",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
